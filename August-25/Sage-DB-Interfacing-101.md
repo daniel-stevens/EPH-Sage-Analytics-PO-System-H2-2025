@@ -12,10 +12,7 @@ Enforce read only access in Sage using user permissions
    - Using ODBC credentials with read only access
    - Ensuring to only use SELECT statements by enforcing a no writes rule
 
-- This may involve creating a new sage user with read only access and connecting through this, but review after sage access granted.
-
-
-
+- This may involve creating a new sage user with read only access and connecting through this, but review after sage access granted and catch up with Ruth 12/08/25
 
 - Datagrip using ODBC 
 - Python for 
