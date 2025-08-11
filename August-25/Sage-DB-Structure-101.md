@@ -30,3 +30,12 @@ Standard or Professional?
 Sage doesn’t want customers directly editing the underlying data — corruption risk is high if constraints aren’t respected.
 An official ERD would make it easier to bypass Sage’s APIs, which could increase support incidents (“unsupported changes”).
 Intacct, by contrast, is built as an API-first SaaS product — publishing an ERD is part of its integration marketing.
+
+For Sage Line 50, there is no official public ERD, because:
+- It’s not a pure relational DB with enforced keys
+- Schema varies per install:
+- Sage prefers you to use their ODBC/SDO layer
+- They don’t market it as an API-first integration platform
+
+Dev To Do's:
+- Map our EPH Specific Sage Schema
